@@ -18,6 +18,7 @@ The objective of the dataset is to diagnostically predict whether a patient has 
 
 3.Comparision of the models using both Train-test-split and GridSearch CV:
 Train-test split: split the data into training and testing data for finding the accuracy score to see how well are model is working.And even the comparision on the performance of the models(SVM,Logistic Regression,KNN,Random Forest) based on train test split. Using it the conclusion was that SVM is the best model for this data with an accuracy score of 77%
+
 Grid Search CV:Did hyperparameter tuning on different models using Grid Search CV and still found SVM with highest accuracy
 
 4.Making a predictive system: With the trained SVM Classifier made a predictive system using input data 
